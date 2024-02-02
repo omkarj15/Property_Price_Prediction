@@ -52,7 +52,9 @@ The objective is to develop a predictive model leveraging machine learning and d
 - XGBoost
 
 ![Screenshot](Images/1.png)
+
 ![Screenshot](Images/2.png)
+
 ![Screenshot](Images/3.png)
 
 ## Model (Deep Learning)
