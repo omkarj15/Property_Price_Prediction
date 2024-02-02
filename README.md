@@ -52,15 +52,25 @@ The objective is to develop a predictive model leveraging machine learning and d
 - XGBoost
 
 ## Model (Deep Learning)
-- Artificial Neural Network (ANN)
-  - **Cost Function**: Mean Absolute Error
-    - Train: 4.92
-    - Test: 5.19
-  - **Accuracy**: R2 Score
-    - Train: 83%
-    - Test: 82%
+
+In the context of property price prediction, deep learning refers to the use of artificial neural networks (ANN), a class of machine learning algorithms inspired by the structure and function of the human brain. The ANN model is trained on a large dataset consisting of various features related to properties such as age, area, and other relevant factors. During training, the model learns to recognize patterns and relationships between these features and the target variable, which is the property price.
+
+### Cost Function
+The cost function used in the ANN model is the Mean Absolute Error (MAE), which measures the average absolute difference between the predicted property prices and the actual prices in both the training and testing datasets.
+
+- **Train MAE**: 4.92
+- **Test MAE**: 5.19
+
+### Accuracy
+The accuracy of the ANN model is evaluated using the R2 Score, which represents the proportion of the variance in the property prices that is predictable by the model. 
+
+- **Train R2 Score**: 83%
+- **Test R2 Score**: 82%
 
 ## Conclusion
-1. XGBoost demonstrates lower RMSE and higher R2 value compared to other ML algorithms.
-2. ANN model exhibits lower cost function and good accuracy.
+
+1. **Performance Comparison**: The XGBoost algorithm outperforms other machine learning algorithms in terms of Root Mean Square Error (RMSE) and R2 value, indicating its superior predictive capability in estimating property prices.
+
+2. **ANN Model Evaluation**: Despite XGBoost's superiority, the ANN model demonstrates promising results with a relatively low cost function and high accuracy. This suggests that deep learning approaches, such as artificial neural networks, hold potential for accurate property price prediction and warrant further exploration and refinement.
+
 
