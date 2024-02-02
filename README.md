@@ -51,6 +51,10 @@ The objective is to develop a predictive model leveraging machine learning and d
 - Adaptive Boosting
 - XGBoost
 
+![Screenshot](Images/1.png)
+![Screenshot](Images/2.png)
+![Screenshot](Images/3.png)
+
 ## Model (Deep Learning)
 
 In the context of property price prediction, deep learning refers to the use of artificial neural networks (ANN), a class of machine learning algorithms inspired by the structure and function of the human brain. The ANN model is trained on a large dataset consisting of various features related to properties such as age, area, and other relevant factors. During training, the model learns to recognize patterns and relationships between these features and the target variable, which is the property price.
